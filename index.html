@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin">
+    <meta name="description" content="Thi is my first project.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Benjee'sCoffee Request Form</h1>
+    <p id="description">Thank you for taking the time to request for your favourate coffee</p>
+    <!-- The required part of the form (input) -->
+    <form action="" id="request-form">
+      <div class="form-div">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-div">
+        <label id="email-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-div">
+        <label id="number-label">Phone No.</label>
+        <input type="number" id="number" name="number" placeholder="Contact" required>
+      </div>
+      
+      <div class="form-div">
+        <label>Department</label>
+        <input type="text" id="number" name="name" placeholder="Name of Department" required>
+      </div>
+
+      <!-- This is another part of the form (first dropdown) -->
+      <div class="form-div">
+        <label id="dropdown-label-status">Which option best describe you?</label>
+        <select id="dropdown" name="dropdown">
+         <option value="">Select your status</option>
+         <option value="1">Stuff</option>
+         <option value="2">Guest</option>
+         <option value="3">Other</option>
+          </select>
+        </div>
+        <!-- This is another part of the form (ridio button) -->
+        <div class="form-div">
+          <label id="label-radio">Choose your preferred taste.</label>
+          </div>
+          <div class="form-radio">
+            <label id="without suger"><input type="radio" value="without suger" name="taste">Without Suger</label>
+            </div>
+          <div class="form-radio">
+            <label id="suger(1 spoon)"><input type="radio" value="suger(1 spoon)" name="taste">Suger(1 spoon)</label>
+            </div>
+          <div class="form-radio">
+            <label id="suger(1.5 spoon)"><input type="radio" value="suger(1.5 spoon)" name="taste">Suger(1.5 spoon)</label>
+            </div>
+          <div class="form-radio">
+            <label id="suger(sweet)"><input type="radio" value="suger(sweet)" name="taste">Suger(sweet)</label>
+            </div>
+         <!-- This is another part of the form(checkbox) -->
+          <div class="form-div">
+            <label id="label-checkbox">What would you like to request? ***(check all that apply if you are requesting for two or more people)</LABEL>
+            </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="1"><label>Cappuccino</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="2"><label>Nescafe</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="3"><label>American Coffee</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="4"><label>Coffee with milk</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="5"><label>Turkish Coffee</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="6"><label>Arabic Coffee</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="7"><label>Herbal Tea</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="8"><label>Red Tea</label>
+              </div>
+            <div class="div-checkbox">
+              <input type="checkbox" name="request" value="9"><label>Tea with milk</label>
+              </div>
+              <input type="checkbox" name="request" value="10"><label>Bottel Water</label>
+              </div>
+              <!-- This is the textarea -->
+              <div class="form-div">
+                <br/>
+                <label id="label-textarea">Any your comments or suggestions?</label>
+                  <textarea name="suggestion" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="form-div">
+                  <input type="submit" value="Submit">
+                  </div>
+                  
+    </form>
+  </body>
+  </html>
